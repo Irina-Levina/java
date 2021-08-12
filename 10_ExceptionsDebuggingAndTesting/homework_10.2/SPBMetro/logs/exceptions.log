@@ -1,0 +1,28 @@
+2021-05-06 17:06:04.432 [main] ERROR  - EXCEPTIONS_HISTORY
+TestException: ТЕСТ - исключение специально для log4j -000000000000000000000000000000000
+	at Main.takeStation(Main.java:88) ~[classes/:?]
+	at Main.main(Main.java:37) [classes/:?]
+2021-05-06 17:06:07.706 [main] ERROR  - EXCEPTIONS_HISTORY
+TestException: ТЕСТ - исключение специально для log4j -99999999999999999999999999999999
+	at Main.takeStation(Main.java:88) ~[classes/:?]
+	at Main.main(Main.java:37) [classes/:?]
+2021-05-06 17:07:25.954 [main] ERROR  - EXCEPTIONS_HISTORY
+TestException: ТЕСТ - исключение специально для log4j -666666666666666666666666666666
+	at Main.takeStation(Main.java:88) ~[classes/:?]
+	at Main.main(Main.java:37) [classes/:?]
+2021-05-06 17:07:28.738 [main] ERROR  - EXCEPTIONS_HISTORY
+TestException: ТЕСТ - исключение специально для log4j -99999999999999999999999999999999
+	at Main.takeStation(Main.java:88) ~[classes/:?]
+	at Main.main(Main.java:37) [classes/:?]
+2021-05-06 17:07:58.836 [main] ERROR  - EXCEPTIONS_HISTORY
+TestException: ТЕСТ - исключение специально для log4j -Спортивкая
+	at Main.takeStation(Main.java:88) ~[classes/:?]
+	at Main.main(Main.java:37) [classes/:?]
+2021-05-06 17:12:24.620 [main] ERROR  - EXCEPTIONS_HISTORY
+TestException: ТЕСТ - исключение специально для log4j -6666666666666666666666666664444444444444
+	at Main.takeStation(Main.java:88) ~[classes/:?]
+	at Main.main(Main.java:37) [classes/:?]
+2021-05-06 17:13:22.767 [main] ERROR  - EXCEPTIONS_HISTORY
+TestException: ТЕСТ - исключение специально для log4j -ffffffffffff
+	at Main.takeStation(Main.java:88) ~[classes/:?]
+	at Main.main(Main.java:37) [classes/:?]

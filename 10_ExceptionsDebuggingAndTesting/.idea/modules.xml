@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/10_ExceptionsDebuggingAndTesting.iml" filepath="$PROJECT_DIR$/.idea/10_ExceptionsDebuggingAndTesting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/homework_10.1/ConsoleCustomerList/ConsoleCustomerList.iml" filepath="$PROJECT_DIR$/homework_10.1/ConsoleCustomerList/ConsoleCustomerList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/homework_10.2/SPBMetro/spb-metro.iml" filepath="$PROJECT_DIR$/homework_10.2/SPBMetro/spb-metro.iml" />
+    </modules>
+  </component>
+</project>

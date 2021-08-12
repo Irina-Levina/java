@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.29">
+<file name="B:\Java\java_basics\04_NumbersStringsAndDates\homework_4.5\FullNameFormatterRegExp\src\main\java\Main.java">
+<error line="2" column="8" severity="warning" message="Неиспользуемый импорт класса - java.util.regex.MatchResult. Для устранение удалите лишние импорты воспользовавшись сочетаниям клавиш CTRL+ALT+O / Cmd+Option+O" source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="3" column="8" severity="warning" message="Неиспользуемый импорт класса - java.util.regex.Matcher. Для устранение удалите лишние импорты воспользовавшись сочетаниям клавиш CTRL+ALT+O / Cmd+Option+O" source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="4" column="8" severity="warning" message="Неиспользуемый импорт класса - java.util.regex.Pattern. Для устранение удалите лишние импорты воспользовавшись сочетаниям клавиш CTRL+ALT+O / Cmd+Option+O" source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+</file>
+</checkstyle>
