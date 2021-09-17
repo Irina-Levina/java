@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th=http://Thymeleaf.org>
+<head>
+    <meta charset="UTF-8">
+    <title>Update task</title>
+</head>
+<body>
+<form th:object="${toDo}" method="POST">
+
+    <label for="id"> id </label>
+    <input readonly type="number" th:field="*{id}" id="id" placeholder="ID">
+
+    <label for="description"> Description</label>
+    <input type="text" th:field="*{description}" id="description" placeholder="description">
+
+    <label for="endDate"> endDate</label>
+    <input type="date" th:field="*{endDate}" id="endDate" placeholder="endDate">
+
+    <input type="submit" value="Save">
+</form>
+
+</body>
+</html>

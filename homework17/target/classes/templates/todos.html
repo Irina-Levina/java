@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th=http://Thymeleaf.org>
+<head>
+    <meta charset="UTF-8">
+    <title>ToDo List</title>
+</head>
+<body >
+<font size="4" color="#65787e" face="Arial">
+
+
+<div align="center" th:if="${todoList == null}">
+    <h2> Empty list</h2>
+</div>
+
+<div th:if="${todoList != null}">
+    <h2 align="center">TODO LIST</h2>
+    <table align="center" frame="above" rules ="rows"  cellpadding = "20" >
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>Description</th>
+            <th>Duration</th>
+        </tr>
+        </thead>
+        <tbody>
+
+        <tr th:each="task : ${todoList}">
+            <td th:text="${task.id}">VALUE</td>
+            <td th:text="${task.description}">VALUE </td>
+            <td th:text="${task.endDate}">VALUE </td>
+
+            <td><a th:href="@{delete-task/{id}(id = ${task.id})}">
+                <img src="delete.jpg"  width="20" height="20"></a></td>
+            <td><a th:href="@{update-task/{id}(id = ${task.id})}">
+                <img src="edit.jpg"  width="20" height="20"></a></td>
+        </tr>
+        </tbody>
+    </table>
+
+
+    <p><a th:href="create-task"> <img src="plus.png"  width="20" height="20"> Create new task</a></p>
+</div>
+
+</div>
+</div>
+    </font>
+
+</body>
+</html>
